@@ -192,7 +192,7 @@ var addeventatc = function() {
                     a = addeventatc.getburl({
                         id: e.button,
                         facebook: !1
-                    }), n = "https://www.addevent.com/create/?service=" + e.service + a, "outlook" != e.service && "appleical" != e.service || (d = !1, addeventatc.usewebcal() && (n = "webcal://www.addevent.com/create/?uwc=on&service=" + e.service + a));
+                    }), n = "https://www.addevent.com/create/?service=" + e.service + a + "&reference=" + o, "outlook" != e.service && "appleical" != e.service || (d = !1, addeventatc.usewebcal() && (n = "webcal://www.addevent.com/create/?uwc=on&service=" + e.service + a + "&reference=" + o));
                     var c = t.getAttribute("data-id");
                     null !== c && (n = "https://www.addevent.com/event/" + c + "+" + e.service)
                 }
