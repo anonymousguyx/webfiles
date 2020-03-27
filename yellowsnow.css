@@ -1,0 +1,14 @@
+@media screen and (max-width: 980px){
+    .vc_column-inner.vc_custom_1566589721322 {
+        margin-left: 0px !important;
+    }
+    .vc_column-inner.vc_custom_1566589710043 {
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (max-width: 980px) and (min-width: 768px){
+    .vc_custom_1503252035638 > div {
+        width: 50%;
+    }
+}
